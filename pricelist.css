@@ -1,0 +1,72 @@
+*{
+
+    border:1px solid #222;
+}
+
+.price-box:hover{
+
+    transform:scale(1.03);
+
+    border:1px solid cyan;
+
+    box-shadow:0 0 20px rgba(0,255,255,0.3);
+}
+
+.left{
+
+    font-size:15px;
+
+    font-weight:500;
+}
+
+.right{
+
+    font-size:20px;
+
+    font-weight:700;
+
+    color:cyan;
+}
+
+.button{
+
+    display:block;
+
+    margin-top:30px;
+
+    background:cyan;
+
+    color:black;
+
+    text-decoration:none;
+
+    padding:16px;
+
+    border-radius:18px;
+
+    font-weight:700;
+
+    transition:0.3s;
+}
+
+.button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 0 25px cyan;
+}
+
+@media(max-width:480px){
+
+    h1{
+        font-size:28px;
+    }
+
+    .left{
+        font-size:14px;
+    }
+
+    .right{
+        font-size:18px;
+    }
+}
