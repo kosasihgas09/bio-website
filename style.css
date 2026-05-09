@@ -7,21 +7,14 @@ box-sizing:border-box;
 body{
 
 font-family:'Orbitron',sans-serif;
-
 background:black;
-
-overflow:hidden;
-
+overflow-x:hidden;
+padding:20;
 min-height:100vh;
-
 display:flex;
-
 justify-content:center;
-
 align-items:center;
-
 position:relative;
-
 color:white;
 }
 
@@ -62,7 +55,6 @@ position:fixed;
 width:100%;
 height:100%;
 
-
 background-image:
 radial-gradient(cyan 1px, transparent 1px);
 
@@ -90,26 +82,17 @@ transform:translateY(-200px);
 .container{
 
 position:relative;
-
 z-index:5;
-
 width:90%;
 max-width:420px;
-
-padding:20px 15px;
-
-border-radius:25px;
-
-background:rgba(255,255,255,0.05);
-
+margin:30px auto;
+padding:30px 20px;
+border-radius:30px;
+background:rgba(0,0,0,0.65);
 backdrop-filter:blur(15px);
-
-border:1px solid rgba(250,250,250,0.1);
-
-box-shadow:0 0 40px rgba(0,255,255,0.25);
-
+border:1px solid rgba(o,255,255,0.2);
+box-shadow:0 0 40px rgba(0,255,255,0.2);
 text-align:center;
-
 animation:fadeUp 1s ease;
 }
 
