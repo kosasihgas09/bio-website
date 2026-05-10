@@ -109,9 +109,13 @@ border:3px solid cyan;
 
 box-shadow:0 0 20px cyan;
 
-display:block;
+display:flex;
+justify-content:center;
+align-content:center;
+margin-left:auto;
+margin-right:auto;
 
-margin:0 auto 18px auto;
+margin-bottom:18px;
 }
 
 /* TITLE */
