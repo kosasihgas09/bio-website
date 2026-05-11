@@ -84,7 +84,7 @@ max-width:390px;
 
 margin:auto;
 
-padding:22px 18px;
+padding:18px 16px;
 
 border-radius:24px;
 
@@ -102,7 +102,7 @@ text-align:center;
 /* PROFILE */
 
 .profile{
-
+height:fit-content;
 
 width:95px;
 height:95px;
@@ -147,7 +147,7 @@ color:#ccc;
 
 line-height:1.4;
 
-margin-bottom:14px;
+margin-bottom:10px;
 }
 
 /* BADGE */
@@ -162,7 +162,7 @@ justify-content:center;
 
 gap:7px;
 
-margin-bottom:18px;
+margin-bottom:12px;
 }
 
 .status-box span{
@@ -196,9 +196,9 @@ background:#111;
 
 color:white;
 
-padding:13px;
+padding:11px;
 
-margin-bottom:10px;
+margin-bottom:8px;
 
 border-radius:15px;
 
@@ -229,7 +229,7 @@ color:black;
 
 footer{
 
-margin-top:10px;
+margin-top:6px;
 
 text-align:center;
 
