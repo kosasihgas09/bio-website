@@ -379,6 +379,11 @@ a{
 -webkit-tap-highlight-color: transparent;
 
 outline:none;
+
+tap-highlight-color:transparent;
+
+-webkit-fokus-ring-color:transparent;
+
 }
 
 
@@ -388,4 +393,17 @@ outline:none;
 transform:scale(0.98);
 
 filter:brightness(1.1);
+}
+
+
+.card:focus,
+.card:active,
+.special:focus,
+.special:active{
+
+outline:none;
+
+background:#111;
+
+filter:none;
 }
