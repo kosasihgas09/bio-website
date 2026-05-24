@@ -359,3 +359,12 @@ a{
 
 outline:none;
 }
+
+
+.card:active,
+.special:active{
+
+transform:scale(0.98);
+
+filter:brightness(1.1);
+}
